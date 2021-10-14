@@ -118,3 +118,4 @@
 % primer vezan za sopsvetene matrice i sopstvene vrednosti
 % A = [0 1; -6 -5];
 % eig(A)
+
