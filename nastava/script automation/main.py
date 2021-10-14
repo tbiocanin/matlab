@@ -11,12 +11,11 @@ def file_maker_function(file_name):
             current_file.write("%")
         if i == 1 :
             break
-        for j in range(5):
+        for j in range(4):
             current_file.write("% \n")
     
     current_file.close()
 # ---------------------------------------------------------------------------------
-
 # This function will make a folder in the directory specified
 def folder_maker_function( folder_name ):
     const_directory = "C:/Users/Teodor/Documents/Github/matlab/nastava/"
@@ -25,8 +24,8 @@ def folder_maker_function( folder_name ):
     print("The directory "+ final_directory + " was made!")
 
     return final_directory
-
 # ---------------------------------------------------------------------------------
+#This function uses the previous functions and sorts the file in the right folder.
 def complete_make_function( file_name, folder_name ):
     current_directory = "C:/Users/Teodor/Documents/Github/matlab/nastava/script automation/" + file_name
 
@@ -37,7 +36,6 @@ def complete_make_function( file_name, folder_name ):
     sh.move(current_directory, destination_directory)
 
     print("File moved.")
-
 # ---------------------------------------------------------------------------------
 # main function definition
 def main():
@@ -47,6 +45,8 @@ def main():
     user_file_input = input("Uneti naziv fajla koji treba generisati: ")
     print("\n")
     complete_make_function(user_file_input, user_folder_input)
+
+    return 0
 
 if __name__ == "__main__":
     main()
