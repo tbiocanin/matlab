@@ -40,11 +40,24 @@ def complete_make_function( file_name, folder_name ):
 # main function definition
 def main():
 
-    user_folder_input = input("Uneti naziv foldera koji treba generisati: ")
-    print("\n")
-    user_file_input = input("Uneti naziv fajla koji treba generisati: ")
-    print("\n")
-    complete_make_function(user_file_input, user_folder_input)
+    tmp = input("Unesi 1 ako se pravi samo folder ili fajl, 2 ako se prave oba: ") #temporary variable
+
+    if tmp == "1":
+        folder_or_file = input("Da li se pravi folder ili fajl?")
+    elif tmp == "2":
+        user_folder_input = input("Uneti naziv foldera koji treba generisati: ")
+        print("\n")
+        user_file_input = input("Uneti naziv fajla koji treba generisati: ")
+        print("\n")
+        complete_make_function(user_file_input, user_folder_input)
+    else:
+        print("Unos nije validan.")
+
+    # user_folder_input = input("Uneti naziv foldera koji treba generisati: ")
+    # print("\n")
+    # user_file_input = input("Uneti naziv fajla koji treba generisati: ")
+    # print("\n")
+    # complete_make_function(user_file_input, user_folder_input)
 
     return 0
 
