@@ -1,2 +1,2 @@
 # matlab
- code for the subject 'programming in automation engineering' 
+ Code that was done in matlab from the subject - Programming in automation engineering.
