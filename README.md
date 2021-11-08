@@ -1,2 +1,2 @@
 # matlab
- Code that was done in matlab from the subject - Programming in automation engineering.
+ Code examples in matlab from the subject - Programming in automation engineering.
