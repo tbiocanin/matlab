@@ -27,7 +27,7 @@ def folder_maker_function( folder_name ):
 # ---------------------------------------------------------------------------------
 #This function uses the previous functions and sorts the file in the right folder.
 def complete_make_function( file_name, folder_name ):
-    current_directory = "C:/Users/Teodor/Documents/Github/matlab/nastava/script automation/" + file_name
+    current_directory = "" + file_name
 
     destination_directory = folder_maker_function( folder_name )
     destination_directory = destination_directory + "/" + file_name
