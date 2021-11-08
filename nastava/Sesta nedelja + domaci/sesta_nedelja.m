@@ -34,19 +34,3 @@ function [xdot] = sesta_nedelja(vreme, x, flag, copruge, cprigusivaca, masa)
     xdot(2) = -copruge/masa*x(1) - cprigusivaca/masa * x(2) + 1/masa * F;
     xdot = [xdot(1); xdot(2)];
 end
-
-% function izlaz1 = sesta_nedelja(ulaz1, ulaz2)
-
-% end
-
-% function izlaz1 = sesta_nedelja(ulaz1, ulaz2)
-
-% end
-
-% function izlaz1 = sesta_nedelja(ulaz1, ulaz2)
-
-% end
-
-% function izlaz1 = sesta_nedelja(ulaz1, ulaz2)
-
-% end
