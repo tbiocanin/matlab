@@ -12,7 +12,7 @@ proizvod2 = a * b'
 
 suma = 0;
 % for indx = 1:length(n)
-    s = 1/(indx) * sum(a(1:n)^2 + b(1:n)^2);
+suma = 1/(length(n)) * sum(a.^2 + b.^2);
 % end
 
 suma
