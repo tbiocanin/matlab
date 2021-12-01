@@ -1,0 +1,5 @@
+bus creator moze da kombinuje razliicite tipove signala i razlicite velicine
+
+mux - isto kao bus creator ali moraju signali da budu istog tipa i iste velicine
+
+bitno je kako pravis vreme
