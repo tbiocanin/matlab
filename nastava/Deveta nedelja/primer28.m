@@ -1,3 +1,4 @@
+% jedna opcija jeste koristeci strukture i poziv promenljivim iz strukture
 
 figure(1)
 plot(tout, simout);
